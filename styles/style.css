@@ -1,0 +1,26 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 12px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(217, 225, 233);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding: 0 0px 0px 0px;
+}
+
+.grade-category {
+    background-color: aliceblue;
+    border: 8px;
+    border-color: black;
+    margin: 10px;
+}
+
+.grade-category h1 {
+    font-size: 16px;
+    color: cadetblue;
+    text-align: center;
+}
