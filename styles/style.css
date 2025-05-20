@@ -1,26 +1,91 @@
 html {
-  /* px means "pixels". The base font size is now 10 pixels high */
   font-size: 12px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
   font-family: "Open Sans", sans-serif;
   background-color: rgb(217, 225, 233);
 }
 
-body {
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr, 5fr, 1fr;
+  padding: 0px;
+  margin: 0px;
+}
+
+.title-banner {
+  grid-area: 2 / 1 / span 2 / span 3;
+  background-color: rgb(53, 184, 184);
+  margin: 0px;
+  padding: 5%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px;
+  padding: 2.5% 2.5% 0px 2.5%;
+}
+
+.nav-buttons-grid-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   margin: 0px;
   padding: 0px;
 }
 
-.top-banner {
-  background-color: aqua;
+.nav-button-1 {
+  background-color: cadetblue;
+  border: 0px;
+  grid-column: 1;
+  grid-row: 3;
   margin: 0px;
-  padding: 5%;
-  width: 100%;
+  padding: 0px;
 }
 
-.top-banner button {
-  background-color:cadetblue;
+.nav-button-2 {
+  background-color: cadetblue;
+  border: 0px;
+  grid-column: 2;
+  grid-row: 3;
   margin: 0px;
-  padding: 2.5%;
-  border: 0px
+  padding: 0px;
+}
+
+.nav-button-3 {
+  background-color: cadetblue;
+  border: 0px;
+  grid-column: 3;
+  grid-row: 3;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-button-1.clicked {
+  background-color: rgb(35, 128, 131);
+  border: 0px;
+  grid-column: 1;
+  grid-row: 3;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-button-2.clicked {
+  background-color: rgb(35, 128, 131);
+  border: 0px;
+  grid-column: 2;
+  grid-row: 3;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-button-3.clicked {
+  background-color: rgb(35, 128, 131);
+  border: 0px;
+  grid-column: 3;
+  grid-row: 3;
+  margin: 0px;
+  padding: 0px;
+}
+
+.website-title {
+  color: black;
 }
