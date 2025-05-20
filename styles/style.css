@@ -34,7 +34,6 @@ html {
 
 .nav-button-1 {
   background-color: cadetblue;
-  border: 0px;
   grid-column: 1;
   grid-row: 3;
   margin: 0px;
@@ -43,7 +42,6 @@ html {
 
 .nav-button-2 {
   background-color: cadetblue;
-  border: 0px;
   grid-column: 2;
   grid-row: 3;
   margin: 0px;
@@ -52,7 +50,6 @@ html {
 
 .nav-button-3 {
   background-color: cadetblue;
-  border: 0px;
   grid-column: 3;
   grid-row: 3;
   margin: 0px;
@@ -61,29 +58,32 @@ html {
 
 .nav-button-1.clicked {
   background-color: rgb(35, 128, 131);
-  border: 0px;
   grid-column: 1;
   grid-row: 3;
   margin: 0px;
   padding: 0px;
+  border: 10px;
+  border-color: black;
 }
 
 .nav-button-2.clicked {
   background-color: rgb(35, 128, 131);
-  border: 0px;
   grid-column: 2;
   grid-row: 3;
   margin: 0px;
   padding: 0px;
+  border: 10px;
+  border-color: black;
 }
 
 .nav-button-3.clicked {
   background-color: rgb(35, 128, 131);
-  border: 0px;
   grid-column: 3;
   grid-row: 3;
   margin: 0px;
   padding: 0px;
+  border: 10px;
+  border-color: black;
 }
 
 .website-title {
