@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+html {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(217, 225, 233);
+}
+
+.main-grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* fix comma issue */
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgb(53, 184, 184);
+  display: flex; /* use flex for simpler layout */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; /* padding on left and right */
+  box-sizing: border-box; /* ensures padding doesn't overflow */
+  width: 100%;
+}
+
+.website-title {
+  color: black;
+  margin: 0;
+}
+
+.nav-buttons-grid-area {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  background-color: cadetblue;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+}
