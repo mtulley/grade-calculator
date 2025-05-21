@@ -86,3 +86,8 @@ header {
 .website-title {
   color: black;
 }
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+}
