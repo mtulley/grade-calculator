@@ -12,16 +12,13 @@ html {
   margin: 0px;
 }
 
-.title-banner {
+header {
   grid-area: 2 / 1 / span 2 / span 3;
   background-color: rgb(53, 184, 184);
-  margin: 0px;
-  padding: 5%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0px;
-  padding: 2.5% 2.5% 0px 2.5%;
+  padding: 0% 15%;
 }
 
 .nav-buttons-grid-area {
